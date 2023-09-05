@@ -17,7 +17,7 @@ class CheckoutPage {
 
     async validateErrorMessageCheckout(errorMessage){
         console.log('Validating error message...');
-        await expect(this.page.locator(this.errorMessageText)).toHaveText(`${errorMessage}`);
+        await expect(this.page.locator(this.errorMessageText)).toHaveText(`${errorMessage}`, { timeout: 1000 });
     }
 
     async fillFormCheckout (firstName, lastName, postalCode){
