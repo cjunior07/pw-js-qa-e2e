@@ -18,7 +18,7 @@ test.describe('Checkout Test @checkoutTest @AllTests', () => {
         await login.validateLoginSuccess();
     });
 
-    test('Add more than one product in the cart', async ({ page }) => {
+    test('Realize e2e checkout success', async ({ page }) => {
         const home = new HomePage(page);
         const cart = new CartPage(page);
         const checkout = new CheckoutPage(page);
