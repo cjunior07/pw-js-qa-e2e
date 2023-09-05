@@ -1,6 +1,8 @@
 node_modules/
-results/*
-!results/.gitkeep
+reports/allure-results/*
+!reports/allure-results/.gitkeep
+reports/junit/*
+!reports/junit/.gitkeep
 playwright-report/
 tests/tdm/
 test-results/

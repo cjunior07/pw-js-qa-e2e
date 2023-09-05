@@ -33,7 +33,7 @@ const config = {
     fullyParallel: false,
     /* Reporter to use. See https://playwright.dev/docs/test-reporters */
     reporter: [
-        ['allure-playwright', { outputFolder: 'allure-results' }],
+        ['allure-playwright', { outputFolder: 'reports/allure-results' }],
         ['html', { outputFolder: 'reports/playwright-report', open: 'never' }],
         ['list'],
         ['junit', { outputFile: 'reports/junit/results.xml', open: 'never' }]
