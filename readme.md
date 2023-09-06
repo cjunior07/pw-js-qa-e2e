@@ -71,3 +71,5 @@ funções.
 - Baixe o Java para visualizacao de reports
 - Executar o comando ```npm install``` na raiz do projeto para instalar todas as dependencias
 - Executar o comando ```npm test``` na raiz do projeto para executar todos os testes.
+- Executar o comando ```allure serve reports/allure-results``` na raiz do projeto para abrir o report do Allure.
+- Acessar HMTL do Playwright Report para visualização do report do Playwright.
